@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo, useRef } from 'react';
-import { AppState, TestResult } from './types';
-import { QUESTIONS } from './constants';
-import { analyzeResult } from './services/geminiService';
+import { AppState, TestResult } from './types.ts';
+import { QUESTIONS } from './constants.ts';
+import { analyzeResult } from './services/geminiService.ts';
 import html2canvas from 'html2canvas';
 
 // Components
