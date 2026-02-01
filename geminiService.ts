@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { TestResult } from "../types";
+import { TestResult } from "../types.ts";
 
 // 分数段兜底文案库 - 恢复至用户喜爱的“经典野菜梗”版本
 const FALLBACK_RESULTS = {
